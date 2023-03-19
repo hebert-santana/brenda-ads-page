@@ -15,7 +15,7 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1rem;
     font-family: 'Barlow', sans-serif;
     background-color: var(--black);
 }
@@ -32,14 +32,10 @@ body {
     --black-100: #0d0d0d;
 }
 
-.container_header, .section_sobre, .section_servico, .section_tech, .section_contato {
+.container_header, .section_sobre {
     max-width: 140rem;
     margin: 0 auto;
     padding: 0 2rem;
-}
-
-.section_sobre, .section_servico, .section_tech, .section_contato {
-    padding-top: 9rem;
 }
 
 .destaque {
